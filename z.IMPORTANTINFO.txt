@@ -1,0 +1,115 @@
+Node Modules: - new crossmint nm - issue with 
+
+Testing: - 10 emails, 10 mm.... get $ out of contract.... get on exchange with real matic
+
+Code base (what was copied - which masterclass?):...soon to be deployed to github
+
+Deployer account (public key): 0xC17e7Db3D6C88fC20152907875408E6B496AAb42 (NK - NK Projects)
+
+
+env Notes:
+DEPLOYER_PRIVATE_KEY="cfbe1c09179f33c53e07ec5ff2907a69a47b37a578474aaa0fc4f2d0c4b26cf8"
+INFURA_API_KEY="fccffab3958f4f25937398f4edf63aa4"
+ETHERSCAN_API_KEY="T84MRZ8NXM1AEYB9FV67WFXCRV5X5J9622"
+
+PROJECT_NAME="Smart Shades"
+PROJECT_SYMBOL="SSBT"
+MINT_COST=10000000000000000
+MAX_SUPPLY=15000
+
+IPFS_IMAGE_METADATA_CID="QmbrJpH81wWG8iRDDnwwwKHDAt6UzkmHdXQWUPWGzVrEpE"
+IPFS_HIDDEN_IMAGE_METADATA_CID="QmVkFP7scvoVxo73KL7xAJUCmazepDQTHm4t5zn3dXEb65"
+
+NFT_MINT_DATE="Feb 10, 2022 22:00:00" - the date you want the project to go live - date is represented in system timezone
+
+Location of images: https://gateway.pinata.cloud/ipfs/QmaTAr7i87Vkxri1H3Cqznz3mzgdse8pJroE7bMfnJG5hy
+
+Location of metadata https://gateway.pinata.cloud/ipfs/QmbxQg5SUAxVPaKNbexSAuwAG1NFzaMfdCthJ6RsVL9hQ1
+
+
+TEST Website url: 
+surge username: chris.schwint@gmail.com
+surge pw:
+
+Contract address: 0xA34E81749A0821fD486a05Ed81Ff8f0f814c01d9
+Contract scan url: https://mumbai.polygonscan.com/address/0xA34E81749A0821fD486a05Ed81Ff8f0f814c01d9
+
+<CrossmintPayButton
+collectionTitle="Smart Shades"
+collectionDescription="Join the SMART SHADES club and get access to a free brain training package. Getting smarter is how you're defnintely GMI so mint one asap!"
+collectionPhoto="https://gateway.pinata.cloud/ipfs/QmRBegYeJBgnw2ixpzcTi6uXpQ5y8SBfEhAiML3sQctS8N/224.png"
+environment="staging"
+clientId="f7eae5a6-d2cb-4e3c-b5e6-033f71e1782a"
+className='my-custom-crossmint-button'
+mintConfig={{
+price: "24.0",
+//onClick={mintNFTHandler}
+_mintAmount: "1"
+ }}
+/>
+
+NOTES:
+
+INDEX:
+CLI copy
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Starting migrations...
+======================
+> Network name:    'matic'
+> Network id:      80001
+> Block gas limit: 20000000 (0x1312d00)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xf921410c5c76c2de371efccab2508fb385486b82775f06f1a0453b8c1d213a68
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xaC547628159aEd68e356975d2598003b6617f245
+   > block number:        27408003
+   > block timestamp:     1659235052
+   > account:             0xC17e7Db3D6C88fC20152907875408E6B496AAb42
+   > balance:             3.996873074990494148
+   > gas used:            250154 (0x3d12a)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000625385002001232 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000625385002001232 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'SmartShades'
+   -----------------------
+   > transaction hash:    0x8d4c530768ba0db093372fc4d553b72d44accc8eb18765c1b9ebeb892546358b
+   > Blocks: 1            Seconds: 4
+   > contract address:    0xA34E81749A0821fD486a05Ed81Ff8f0f814c01d9
+   > block number:        27408005
+   > block timestamp:     1659235062
+   > account:             0xC17e7Db3D6C88fC20152907875408E6B496AAb42
+   > balance:             3.985945579955526164
+   > gas used:            4325085 (0x41fedd)
+   > gas price:           2.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01081271253460068 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.01081271253460068 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.011438097536601912 ETH
