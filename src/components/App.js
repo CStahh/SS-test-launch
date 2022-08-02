@@ -225,8 +225,8 @@ function App() {
 
 							   <CrossmintPayButton
 								   collectionTitle="Smart Shades"
-								   collectionDescription="Join the SMART SHADES club and get access to a free brain training package. Getting smarter is how you're defnintely GMI so mint one asap!"
-								   collectionPhoto="https://gateway.pinata.cloud/ipfs/QmRBegYeJBgnw2ixpzcTi6uXpQ5y8SBfEhAiML3sQctS8N/224.png"
+								   collectionDescription="Join the SMART SHADES club and get access to a free brain training package designed to increase intelligence, plus future benefits to help improve your smarts. Getting smarter is how you're definintely GMI so mint one now!"
+								   collectionPhoto="https://gateway.pinata.cloud/ipfs/QmUC1QLaUnwXovCb2j5kMVDtzjx8ievB4YErxeuJ1dTMTr/79.png"
 								   environment="staging"
 								   clientId="f7eae5a6-d2cb-4e3c-b5e6-033f71e1782a"
 								   className='my-custom-crossmint-button'
