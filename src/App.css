@@ -228,10 +228,27 @@ h3 {
 
 /* LINK / BUTTON STYLES */
 a {
-    display: block;
-    display: flex;/**/
+    display: inline;/**/
     justify-content: center;
     align-items: center;
+    color: var(--clr-text-alt);
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    transition: all 250ms ease;
+}
+
+a:hover {
+    color: var(--clr-text-sub);
+}
+
+.a2 {
+    display: block;
+    display: flex;/**/
+    justify-content: left;
+    align-items: left;
     color: var(--clr-text-sub);
     font-weight: 700;
     text-decoration: none;
@@ -239,7 +256,7 @@ a {
     transition: all 250ms ease;
 }
 
-a:hover {
+.a2:hover {
     color: var(--clr-button-bg-1);
 }
 

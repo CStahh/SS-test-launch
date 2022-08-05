@@ -214,7 +214,7 @@ function App() {
 										<li>Purchasing one gives you FREE access to our unique, scientific brain training guide and software package</li>
 										<li>As an NFT holder you'll also get exclusive and FREE access to software upgrades and new brain training products when they're released</li>
 										<li>It's Easy! You can mint the "traditional" way by connecting your crypto wallet, or you can buy one by simply using your credit card</li>
-										<li>It's the best value of any NFT you'll find! Boost your brain with our SMART SHADES brain training and you're surely GM!</li>
+										<li>It's the best value of any NFT you'll find! Boost your brain with our SMART SHADES brain training and you're surely GMI!</li>
 									</ul>
 
 									{isMinting ? (
@@ -242,10 +242,10 @@ function App() {
 									{ownerOf.length > 0 &&
 										<p><small>
 											<a
-												href={`${openseaURL}/assets/${smartShades._address}/${ownerOf[0]}`}
+												href={`https://www.neurokeep.com/smart-shades-for-nft-holders-mm`}
 												target='_blank'
-												style={{ display: 'inline-block', marginLeft: '3px' }}>
-												Claim your FREE SMART SHADES Brain Training package
+												style={{ display: 'inline-block', marginLeft: '0px' }}>
+												Claim your FREE Smart Shades Brain Training package
 											</a>
 										</small></p>}
 							</div>
@@ -255,16 +255,35 @@ function App() {
 
 					<Row className='flex m-3 my-3 p-8 mb-0 pb-0'>
 					<Col md={11} lg={11} xl={11} xxl={11} className='text-center' style={{ paddingTop: '8vh' }}>
+							<h3 className='h3' p-2>Claim your FREE Smart Shades brain training package!</h3>
 							<p className='text'>
-								So you bought a Smart Shades NFT? Wow, you sound smart! Now you can claim your Smart Shades brain training package for FREE and start getting even smarter! Click the button below and enter in the password shown on the bottom of your NFT to download the simplest, most scientific and... coolest way to help you get smarter!
+								So you bought a Smart Shades NFT? Wow, you sound smart! Now you can download your Smart Shades brain training package for FREE and start getting even smarter! 
 							</p>
-							<a href="https://www.neurokeep.com/smart-shades-for-nft-holders" className='clearbox2 mx-3'>Get Your Smart Shades Brain Training for FREE!</a>
+							<ul className="li">
+								<li>If you minted with MetaMask the link to your package will appear under the mint buttons above</li>
+								<li>If you minted with Crossmint, the url and password you need to download the package are in your Crossmint account / wallet. Check your email to sign in and find them. You can also click <a href="https://www.neurokeep.com/smart-shades-for-nft-holders-cm" target="_blank">here</a> to access the password-protected download page.</li>
+								<li>Please feel free to <a href="https://www.neurokeep.com/contact" target="_blank"> contact us</a> if you have any questions.</li>
+							</ul>
+
+
+							<p><small>
+											<a
+												href={`https://www.neurokeep.com/smart-shades-for-nft-holders-mm`}
+												target='_blank'
+												style={{ display: 'inline-block', marginLeft: '3px' }}>
+												Claim your FREE Smart Shades Brain Training package
+											</a>
+										</small></p>
+
+
+
+
 					</Col>
 					</Row>
 
 					<Row className='flex m-3 my-3 p-8 mb-0 pb-0'>
 					<Col md={11} lg={11} xl={11} xxl={11} className='text-center' style={{ paddingTop: '8vh' }}>
-							<h3 className='h3' p-2>As a Smart Shades NFT holder, you're entitled to some great perks such as...</h3>
+							<h3 className='h3' p-2>As a Smart Shades NFT holder, you'll be entitled to some great future brain boosting perks such as...</h3>
 									<ul className="li">
 										<li>*Free access to any Smart Shades software upgrades</li>
 										<li>*Free access to any new Smart Shades games we add to our package</li>
@@ -304,7 +323,7 @@ function App() {
 								<img src={twitter} alt="Twitter" />
 							</a>
 							<a
-								href="https://www.neurokeep.com/"
+								href="https://www.neurokeep.com/smart-shades-brain-training"
 								target='_blank'
 								className='circle flex button'>
 								<img src={website} alt="Website" />
