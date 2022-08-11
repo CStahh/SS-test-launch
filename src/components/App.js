@@ -225,17 +225,13 @@ function App() {
 
 							   <CrossmintPayButton
 								   collectionTitle="Smart Shades"
-								   collectionDescription="Join the SMART SHADES club and get access to a free brain training package designed to increase intelligence, plus future benefits to help improve your smarts. Getting smarter is how you're definintely GMI so mint one now!"
-								   collectionPhoto="https://gateway.pinata.cloud/ipfs/QmUC1QLaUnwXovCb2j5kMVDtzjx8ievB4YErxeuJ1dTMTr/79.png"
+								   collectionDescription="Join the SMART SHADES club and get access to a free brain training package designed to increase intelligence, plus future benefits to help improve your smarts! Getting smarter is how you're definintely GMI so mint one now!"
+								   collectionPhoto="https://gateway.pinata.cloud/ipfs/QmYY24nseDpciSv53d61ecwB3moAmZNwemB81aV8WXTawA/46.png"
 								   environment="staging"
-								   clientId="f7eae5a6-d2cb-4e3c-b5e6-033f71e1782a"
+								   clientId="64933629-3e4e-4faf-8503-51d2f507c3ec"
 								   className='my-custom-crossmint-button'
-								   mintConfig={{
-									   price: "24.0",
-									   //onClick={mintNFTHandler}
-									   _mintAmount: "1"
-							       }}
-							  	/>
+								   mintConfig={{"type":"erc-721","totalPrice":"0.1","_mintAmount":"1"}}
+                			  	/>
 							</div>
 									)}
 
@@ -264,20 +260,6 @@ function App() {
 								<li>If you minted with Crossmint, the url and password you need to download the package are in your Crossmint account / wallet. Check your email to sign in and find them. You can also click <a href="https://www.neurokeep.com/smart-shades-for-nft-holders-cm" target="_blank">here</a> to access the password-protected download page.</li>
 								<li>Please feel free to <a href="https://www.neurokeep.com/contact" target="_blank"> contact us</a> if you have any questions.</li>
 							</ul>
-
-
-							<p><small>
-											<a
-												href={`https://www.neurokeep.com/smart-shades-for-nft-holders-mm`}
-												target='_blank'
-												style={{ display: 'inline-block', marginLeft: '3px' }}>
-												Claim your FREE Smart Shades Brain Training package
-											</a>
-										</small></p>
-
-
-
-
 					</Col>
 					</Row>
 
@@ -306,7 +288,7 @@ function App() {
 							<p className='text2'>
 								For more details about our Smart Shades brain training click below
 							</p>
-							<a href="https://www.neurokeep.com/smart-shades-brain-training" className='clearbox2 mx-3'>Learn More About Smart Shades!</a>
+							<a href="https://www.neurokeep.com/smart-shades-brain-training" target='_blank' className='clearbox2 mx-3'>Learn More About Smart Shades!</a>
 					</Col>
 					</Row>
 					

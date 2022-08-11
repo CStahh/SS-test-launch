@@ -86,6 +86,8 @@ Create a .env file in the root directory of your project, and fill in the follow
 ### 3. Verify your contracts
 - For Rinkeby testnet: `truffle run verify OpenPunks --network rinkeby`
 - For Polygon Mainnet: `truffle run verify OpenPunks --network matic`
+*note from Chris Aug 10 2022 - added "polygon" api key in the truffle-config file
+
 
 ## Preparing for Frontend Deployment
 ### 1. Create or Login to your GitHub account
