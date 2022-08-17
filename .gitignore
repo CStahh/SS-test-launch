@@ -22,3 +22,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/z.RECYCLE
+z.IMPORTANTINFO.docx
+z.IMPORTANTINFO.txt
+
+.gitignore
+
