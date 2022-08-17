@@ -191,7 +191,7 @@ function App() {
 						<Col md={6} lg={6} xl={6} xxl={6} className='text-center'>
 							{revealTime !== 0 && <Countdown date={currentTime + (revealTime - currentTime)} className='countdown mx-3' />}
 							<p className='text'>
-								Introducing Smart Shades NFTs, the NFTs that can actually help you get smarter!... Ok, it doesn't automatically increase your intelligence, but if you buy one, you’ll get FREE access to our Smart Shades brain training: The simplest, most scientific and... coolest way to help you get smarter!
+								Introducing Smart Shades NFTs, the NFTs for the cool kids and the smart kids! Minting one can actually help you get smarter!... Ok, it doesn't automatically increase your intelligence, but if you buy one, you’ll get FREE access to our Smart Shades brain training: The simplest, most scientific and... coolest way to help you get smarter!
 							</p>
 							<a href="#about" className='clearbox mx-3'>Learn More!</a>
 						</Col>
